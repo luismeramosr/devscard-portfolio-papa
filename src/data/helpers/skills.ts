@@ -18,25 +18,19 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
-export const apolloGraphql = createSkillFactory({
-    name: 'Apollo GraphQL',
-    icon: 'simple-icons:apollographql',
-    iconColor: '#311C87',
-    url: 'https://www.apollographql.com/',
+export const kuka = createSkillFactory({
+    name: 'KUKA',
+    url: 'https://www.kuka.com/es-es',
 });
 
-export const astro = createSkillFactory({
-    name: 'Astro',
-    icon: 'simple-icons:astro',
-    iconColor: '#FF5D01',
-    url: 'https://astro.build/',
+export const solidworks = createSkillFactory({
+    name: 'Solidworks',
+    url: 'https://www.solidworks.com/es',
 });
 
-export const chakraUi = createSkillFactory({
-    name: 'Chakra UI',
-    icon: 'simple-icons:chakraui',
-    iconColor: '#319795',
-    url: 'https://chakra-ui.com/',
+export const arduino = createSkillFactory({
+    name: 'Arduino',
+    url: 'https://www.arduino.cc/',
 });
 
 export const cypress = createSkillFactory({
@@ -179,9 +173,9 @@ export const siemens = {
 export const unitronics = {
     level: 5,
     name: "Unitronics",
-    src: import('@/assets/logos/unitronics.png'),
+    src: import('@/assets/logos/unitronics.webp'),
     url: "https://www.unitronics.com/",
-    width: 60,
+    width: 70,
     height: 30,
     description: "Programación de PLC's, integración con pantallas HMI mediante protocolo de comunicación MODBUS.",
     style: "margin-bottom: 4px;"
@@ -191,7 +185,7 @@ export const allen_bradley = {
     level: 3,
     name: "Allen Bradley",
     src: import('@/assets/logos/allen-bradley.png'),
-    url: "https://www.unitronics.com/",
+    url: "https://www.rockwellautomation.com/es-mx/products/hardware/allen-bradley.html",
     width: 60,
     height: 30,
     description: "Programación de PLC's, integración con pantallas HMI mediante protocolo de comunicación MODBUS.",
@@ -202,7 +196,7 @@ export const delta = {
     level: 3,
     name: "Delta",
     src: import('@/assets/logos/delta.png'),
-    url: "https://www.unitronics.com/",
+    url: "https://www.deltaww.com/en-US/index",
     width: 60,
     height: 30,
     description: "Diseño e implementación de pantallas HMI.",
@@ -213,7 +207,7 @@ export const schneider = {
     level: 5,
     name: "Schneider",
     src: import('@/assets/logos/schneider.png'),
-    url: "https://www.unitronics.com/",
+    url: "https://www.se.com/pe/es/",
     width: 60,
     height: 30,
     description: "Instalación y configuración de variadores. Programación de micro-PLC Zelio.",
@@ -241,3 +235,44 @@ export const autonics = {
     description: "Configuración de controladores de temperatura, nivel, presión, velocidad y de proximidad.",
     style: ""
 }
+
+export const omron = {
+    level: 4,
+    name: "Omron",
+    src: import('@/assets/logos/omron.png'),
+    url: "https://www.omron.com/global/en/",
+    width: 60,
+    height: 30,
+    description: "Instalación y configuración de variadores. Programación de PLC's.",
+    style: ""
+}
+
+export const unitronics_tag = createSkillFactory({
+    name: 'Unitronics',
+    url: 'https://www.unitronics.com/',
+});
+
+export const siemens_tag = createSkillFactory({
+    name: 'Siemens',
+    url: 'https://www.siemens.com/pe/es.html',
+});
+
+export const allen_bradley_tag = createSkillFactory({
+    name: 'Allen Bradley',
+    url: 'https://www.rockwellautomation.com/es-mx/products/hardware/allen-bradley.html',
+});
+
+export const delta_tag = createSkillFactory({
+    name: 'Delta',
+    url: 'https://www.deltaww.com/en-US/index',
+});
+
+export const autonics_tag = createSkillFactory({
+    name: 'Autonics',
+    url: 'https://autonics.com.pe/',
+});
+
+export const festo_tag = createSkillFactory({
+    name: 'Festo',
+    url: 'https://www.festo.com/pe/es/',
+});

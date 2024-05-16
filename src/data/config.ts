@@ -14,7 +14,7 @@ const config = {
     title: 'Luis Ramos - Electricista Industrial',
     description:
       'Mi página web',
-    faviconPath: '/src/assets/my-image.jpeg',
+    faviconPath: '/src/assets/my-image.jpg',
   },
   pdf: {
     footer:
