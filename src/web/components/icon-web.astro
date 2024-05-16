@@ -1,0 +1,16 @@
+---
+import { Image } from '@astrojs/image/components';
+
+const { src, alt, width, height, style } = Astro.props;
+---
+
+<Image
+  format="png"
+  loading="eager"
+  src={src}
+  alt={alt}
+  width={width}
+  height={height}
+  class="rounded-lg"
+  style={style ? style : ''}
+/>
