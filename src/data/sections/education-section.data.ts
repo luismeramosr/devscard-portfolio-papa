@@ -4,16 +4,16 @@ import { website } from '../helpers/links';
 
 const educationSectionData = {
   config: {
-    title: 'Education',
-    slug: 'education',
+    title: 'Educación',
+    slug: 'educacion',
     icon: 'fa6-solid:graduation-cap',
     visible: true,
   },
   diplomas: [
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
+      title: 'Electricista Industrial',
+      institution: 'SENATI',
+      image: import('@/assets/logos/senati.png'),
       dates: [new Date('2014.10'), new Date('2016.07')],
       description: 'Master degree. Specialization in software development.',
       links: [website({ url: '#' })],

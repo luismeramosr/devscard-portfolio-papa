@@ -1,23 +1,13 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { facebook, linkedin, website } from '../helpers/links';
 import {
     allen_bradley_tag,
     autonics_tag,
     delta_tag,
-    eslint,
     festo_tag,
-    firebase,
-    nextJs,
-    nx,
-    pnpm,
-    react,
-    reactQuery,
     siemens_tag,
-    tailwindCss,
-    typescript,
     unitronics_tag,
-    vue,
 } from '../helpers/skills';
 
 const experienceSectionData = {
